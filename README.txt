@@ -1,1 +1,1 @@
-examquiz
+The examquiz module

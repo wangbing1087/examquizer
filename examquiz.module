@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Contains examquiz.module.
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function examquiz_theme()
+{
+  return [
+    'node__exam' => [
+      'base hook' => 'node',
+    ],
+  ];
+}
+
+
+

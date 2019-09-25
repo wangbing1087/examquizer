@@ -1,0 +1,23 @@
+uuid: d526cba2-d564-4a1c-b0ad-3bd74589b2c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+   module:
+      - examquiz
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 1PFibeHxBawMygl8iStlGz6884WQVZeX3_nDvRq7UiI
+name: question
+type: question
+description: 'Question related to the exam'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
