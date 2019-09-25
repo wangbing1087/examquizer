@@ -70,4 +70,8 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_is_multiple: true
+  field_question_answers: true
+  field_question_score: true
+  links: true
